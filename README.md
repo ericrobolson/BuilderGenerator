@@ -2,6 +2,9 @@
 # BuilderGenerator
 - A CLI tool used for rendering Blender files to a cropped spritesheet
 
+## Clients
+- Rust - https://github.com/ericrobolson/BuilderSheetRust
+
 ## Usage
 General project structure for rendering:
 * `CHARACTER_NAME/` - top level folder containing character name
