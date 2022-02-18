@@ -1,6 +1,6 @@
+EXAMPLE="$PWD"
 cd .. 
-cd sprite_maker
-cargo run ../example/test_blends ../example/resources/renders 128 128 8 -o
+cargo run "$EXAMPLE/test_blends" "$EXAMPLE/resources/renders" 128 128 8 -o
 cd .. 
 cd example
 cargo run

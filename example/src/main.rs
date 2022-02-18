@@ -1,9 +1,9 @@
+use builder_sheet_rust::*;
 use ggez::event;
 use ggez::filesystem;
 use ggez::graphics::{self, Color};
 use ggez::timer;
 use ggez::{Context, GameResult};
-use sprite_sheet::*;
 use std::env;
 use std::io::Read;
 use std::path;

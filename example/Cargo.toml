@@ -7,5 +7,5 @@ edition = "2018"
 
 [dependencies]
 ggez = "0.6"
-sprite_sheet = {path="../sprite_sheet"}
+builder_sheet_rust = {git = "https://github.com/ericrobolson/BuilderSheetRust", rev="7300060" }
 glam = { version = "0.20", features = ["mint"]}

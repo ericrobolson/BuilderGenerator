@@ -1,6 +1,6 @@
 use crate::*;
 use benchy::Benchy;
-use sprite_sheet::*;
+use builder_sheet_rust::*;
 use std::fs::File;
 use std::io::prelude::*;
 

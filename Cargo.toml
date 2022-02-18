@@ -1,5 +1,5 @@
 [package]
-name = "sprite_maker"
+name = "builder_generator"
 version = "0.1.0"
 edition = "2018"
 
@@ -10,5 +10,5 @@ benchmark = ["benchy/benchmark"]
 [dependencies]
 benchy = {git="https://github.com/ericrobolson/benchy"}
 image = "0.23"
-sprite_sheet = {path="../sprite_sheet"}
+builder_sheet_rust = {git = "https://github.com/ericrobolson/BuilderSheetRust", rev="7300060" }
 walkdir = "2.3"

@@ -136,6 +136,16 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0d8c1fef690941d3e7788d328517591fecc684c084084702d6ff1641e993699a"
 
 [[package]]
+name = "builder_sheet_rust"
+version = "0.1.0"
+source = "git+https://github.com/ericrobolson/BuilderSheetRust?rev=7300060#73000605df47d7bad7037b87c6bfa151c6a1a3bb"
+dependencies = [
+ "base64",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "bumpalo"
 version = "3.8.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -704,9 +714,9 @@ dependencies = [
 name = "example"
 version = "0.1.0"
 dependencies = [
+ "builder_sheet_rust",
  "ggez",
  "glam 0.20.0",
- "sprite_sheet",
 ]
 
 [[package]]
@@ -2165,15 +2175,6 @@ dependencies = [
  "wayland-client",
  "wayland-cursor",
  "wayland-protocols",
-]
-
-[[package]]
-name = "sprite_sheet"
-version = "0.1.0"
-dependencies = [
- "base64",
- "serde",
- "serde_json",
 ]
 
 [[package]]
